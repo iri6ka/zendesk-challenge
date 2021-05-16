@@ -1,6 +1,11 @@
 require 'dotenv'
 Dotenv.load
 
+require 'terminal-table'
+require 'zendesk_api'
+require 'tty-prompt'
+
+
 #configuration settings
 client = ZendeskAPI::Client.new do |config|
     # Mandatory (All info taken from zendesk api client github documentation):
