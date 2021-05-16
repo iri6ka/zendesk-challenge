@@ -17,3 +17,30 @@ client = ZendeskAPI::Client.new do |config|
   
 end
 
+#program start
+begin
+    system "clear"
+    sleep(1.0)
+    puts "\n Zendesk Ticket Viewer \n Welcome!"
+    sleep(1.0)
+    puts "Loading..."
+    sleep(1.0)
+    system "clear"
+
+    
+
+
+
+
+rescue => exception
+    puts "Error: #{e.message}"
+
+else
+puts "Press any key to exit"
+gets
+sleep(1.0)
+system "clear" 
+puts "Thank you for using Zendesk Ticket Viewer. \n Have a great day!"
+exit
+end
+
