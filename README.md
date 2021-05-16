@@ -1,6 +1,6 @@
 # Zendesk Ticket Viewer || CLi application built in Ruby for viewing individual and group Zendesk Tickets
 
-Welcome to Zendesk Software Engineer Challenge page. 
+Welcome to Zendesk Software Engineer Intern Challenge page. 
 
 This is a CLi application built in Ruby (version ruby 2.7.1p83) as an attempt to pass the colding challenge while pursuing an internship role at Zendesk, Melbourne.
 
