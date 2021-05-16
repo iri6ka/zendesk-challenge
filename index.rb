@@ -106,13 +106,19 @@ begin
                             if number == 0
                                 puts "Number can't be 0"
                             return
+                            if number == false || number > client.tickets.count
+                                puts "Please, try again. Number is invalid"
+                            end
                             else
                                 table_ticket = Terminal::Table.new do |t|
                                     t.add_row ["ID", client.tickets[ticket_id].id]
                                     t.add_row ["Subject", client.tickets[ticket_id].subject]
                                     t.add_row ["Status", client.tickets[ticket_id].status]
+                                    t.add_row ["Created At", client.tickets[ticket_id].created_at]
+                                    t.add_row ["Priority", client.tickets[ticket_id].prioriry]
+                                    t.add_row ["Description", client.tickets[ticket_id].description]
                                     t.style = {:padding_left => 3, :border_x => "-", :border_i => "x"}
-                                end    
+                                end
                                 puts table_ticket
                                 break
                             end 
@@ -134,15 +140,19 @@ begin
                         ticket_id = number.to_i - 1 
                         if number == 0
                             puts "Number can't be 0"
-                        return
+                            return
                         else
                             table_ticket = Terminal::Table.new do |t|
                                 t.add_row ["ID", client.tickets[ticket_id].id]
                                 t.add_row ["Subject", client.tickets[ticket_id].subject]
                                 t.add_row ["Status", client.tickets[ticket_id].status]
+                                t.add_row ["Created At", client.tickets[ticket_id].created_at]
+                                t.add_row ["Priority", client.tickets[ticket_id].prioriry]
+                                t.add_row ["Description", client.tickets[ticket_id].description]
                                 t.style = {:padding_left => 3, :border_x => "-", :border_i => "x"}
                             end    
                             puts table_ticket
+                            break
                         end
             when 3  #quit the program
                 quit_program
