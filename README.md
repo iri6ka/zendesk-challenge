@@ -25,7 +25,7 @@ In order to install the program, please, follow those steps.
 3. You need to check the version of Ruby installed on your computer by following this command:
 ```$ ruby -v```
 
-If Ruby is not installed on your local machine or the version is different to the one used in the program, please, follow official guildelines for Ruby installation (see [Ruby Documentation](https://www.ruby-lang.org/en/documentation/installation/).
+If Ruby is not installed on your local machine or the version is different to the one used in the program, please, follow official guildelines for Ruby installation (see [Ruby Documentation](https://www.ruby-lang.org/en/documentation/installation/)).
 
 4. This application uses a few gems. In order to be able to run the code in the right way, you need to install gem bundler. 
 
