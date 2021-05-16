@@ -10,9 +10,9 @@ Documentation will cover information about the application, installation proess 
 
 The program requires the following gems and dependencies:
 
-  *  [terminal-table (3.0.1)][https://github.com/tj/terminal-table]
-  *  [tty-prompt (0.23.1)][https://github.com/piotrmurach/tty-prompt]
-  *  [dotenv (= 2.7.6)][https://rubygems.org/gems/dotenv/versions/2.1.1]
+  *  [terminal-table (3.0.1)](https://github.com/tj/terminal-table)
+  *  [tty-prompt (0.23.1)](https://github.com/piotrmurach/tty-prompt)
+  *  [dotenv (= 2.7.6)](https://rubygems.org/gems/dotenv/versions/2.1.1)
 
 In order to install the program, please, follow those steps.
 1. Cloning the GitHub repository. In order to do so, create a folder on your local computer and then request cloring the repository in the terminal:
@@ -25,7 +25,7 @@ In order to install the program, please, follow those steps.
 3. You need to check the version of Ruby installed on your computer by following this command:
 ```$ ruby -v```
 
-If Ruby is not installed on your local machine or the version is different to the one used in the program, please, follow official guildelines for Ruby installation (see [Ruby Documentation][https://www.ruby-lang.org/en/documentation/installation/])
+If Ruby is not installed on your local machine or the version is different to the one used in the program, please, follow official guildelines for Ruby installation (see [Ruby Documentation](https://www.ruby-lang.org/en/documentation/installation/).
 
 4. This application uses a few gems. In order to be able to run the code in the right way, you need to install gem bundler. 
 
@@ -43,7 +43,7 @@ Now you are set to go!
 
 ## ABOUT THE PROGRAM
 
-This application has been built using an official [Zendesk API Client for Ruby][https://github.com/zendesk/zendesk_api_client_rb].
+This application has been built using an official [Zendesk API Client for Ruby](https://github.com/zendesk/zendesk_api_client_rb).
 
 I decided to use this Ruby Gem as I thought it was a great way to explore not only Zendesk documentation, but also look deeper into inbuilt methods and see if that would make the application building process easier. I must say that the gem is definitely great for using build methods and reducing the amount of code to some extent, on another note I faced some challenges with creation of private methods and classes, as they wouldn't correspond with the inbuilt methods or classes. 
 
